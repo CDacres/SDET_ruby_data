@@ -3,23 +3,23 @@ skyscraper_ground_floor = {lobby: 'reception'}
 # p skyscraper_ground_floor[:lobby]
 
 # skyscraper_first_floor = {
-#   braindrugs: 'drugs',
-#   aqualand: 'LSD factory',
+#   petshop: 'animals',
+#   toyshop: 'lego',
 #   unicorns: 'dreams'
 # }
 
 #DON"T DO THIS! PICK ONE HASH FORMAT
 skyscraper_first_floor = {
-  "braindrugs" => 'drugs',
-  "aqualand" => {
-    prod1: 'LSD factory',
-    prod2: 'big doobies'
+  "petshop" => 'animals',
+  "toyshop" => {
+    prod1: 'lego',
+    prod2: 'trains'
   },
   "unicorns" => ['dreams', 'icecreams']
 }
 
 # p skyscraper_first_floor['unicorns'][0]
-p skyscraper_first_floor['aqualand'][:prod1]
+p skyscraper_first_floor['toyshop'][:prod1]
 
 # p skyscraper_first_floor[:unicorns]
 
